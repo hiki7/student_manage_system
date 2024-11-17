@@ -12,6 +12,7 @@ urlpatterns = [
     path("api/auth/", include("djoser.urls.jwt")),
     path("api/users/", include("users.urls")),
     path("api/students/", include("students.urls")),
+    path("api/courses/", include("courses.urls")),
 ]
 
 urlpatterns += [

@@ -11,3 +11,11 @@ class CourseViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated]
     filter_backends = (DjangoFilterBackend,)
     filterset_fields = ("name",)
+
+
+class EnrollmentViewSet(ModelViewSet):
+    queryset = Enrollment.objects.all()
+    serializer_class = EnrollmentSerializer
+    permission_classes = [IsAuthenticated]
+    filter_backends = (DjangoFilterBackend,)
+    filterset_fields = ("course_id", "student_id")

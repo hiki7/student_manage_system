@@ -4,6 +4,9 @@ from users.permissions import IsTeacher, IsAdmin, IsStudent
 from .models import Grade
 from .serializers import GradeSerializer
 from rest_framework.permissions import IsAuthenticated
+import logging
+
+logger = logging.getLogger("custom")
 
 
 class GradeViewSet(ModelViewSet):
@@ -24,3 +27,10 @@ class GradeViewSet(ModelViewSet):
         if user.role == "student":
             return Grade.objects.filter(student__user=user)
         return super().get_queryset()
+
+    def perform_update(self, serializer):
+        grade = serializer.save()
+        logger.info(
+            f"Grade updated: Student {grade.student.user.username} - "
+            f"Course {grade.course.name} - Grade {grade.grade}"
+        )

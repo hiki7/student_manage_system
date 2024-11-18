@@ -18,9 +18,6 @@ def send_attendance_reminder():
 
 @shared_task
 def send_grade_update_notification(student_email, course_name, grade):
-    """
-    Notify a student when their grade is updated.
-    """
     send_mail(
         subject="Grade Update Notification",
         message=f"Your grade for the course {course_name} has been updated to {grade}.",

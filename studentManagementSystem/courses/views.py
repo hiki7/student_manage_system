@@ -7,6 +7,10 @@ from users.permissions import IsTeacher, IsAdmin
 from django.core.cache import cache
 from rest_framework.decorators import action
 from rest_framework.response import Response
+import logging
+
+
+logger = logging.getLogger("custom")
 
 
 class CourseViewSet(ModelViewSet):
@@ -58,3 +62,9 @@ class EnrollmentViewSet(ModelViewSet):
         if self.action in ["create", "update", "partial_update", "destroy"]:
             return [IsAuthenticated(), IsTeacher() or IsAdmin()]
         return [IsAuthenticated()]
+
+    def perform_create(self, serializer):
+        enrollment = serializer.save()
+        logger.info(
+            f"Student {enrollment.student.user.username} enrolled in course {enrollment.course.name}"
+        )

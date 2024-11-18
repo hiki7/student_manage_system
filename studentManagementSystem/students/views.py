@@ -1,14 +1,13 @@
 from rest_framework.viewsets import ModelViewSet
-
-from users.permissions import IsStudent, IsAdmin
-from .models import Student
-from .serializers import StudentSerializer
 from rest_framework.permissions import IsAuthenticated
 from django_filters.rest_framework import DjangoFilterBackend
 from django.core.cache import cache
 from rest_framework.response import Response
 import logging
 
+from users.permissions import IsStudent, IsAdmin
+from .models import Student
+from .serializers import StudentSerializer
 
 logger = logging.getLogger("custom")
 
@@ -21,11 +20,7 @@ class StudentViewSet(ModelViewSet):
     filter_fields = ["dob", "registration_date"]
 
     def get_permissions(self):
-        if self.action in ["list", "retrieve"]:
-            return [IsAuthenticated(), IsStudent() or IsAdmin()]
-        elif self.action in ["update", "partial_update"]:
-            return [IsAuthenticated(), IsStudent() or IsAdmin()]
-        elif self.action in ["destroy"]:
+        if self.action in ["destroy"]:
             return [IsAuthenticated(), IsAdmin()]
         return [IsAuthenticated()]
 
@@ -34,7 +29,12 @@ class StudentViewSet(ModelViewSet):
         if user.role == "student":
             logger.info(f"Student {user.username} is accessing their own profile.")
             return Student.objects.filter(user=user)
-        return Student.objects.all()
+        elif user.role == "admin":
+            logger.info(f"Admin {user.username} is accessing all student profiles.")
+            return Student.objects.all()
+        else:
+            logger.warning(f"Unauthorized access attempt by {user.username}.")
+            return Student.objects.none()
 
     def retrieve(self, request, *args, **kwargs):
         student_id = kwargs["pk"]

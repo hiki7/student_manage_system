@@ -42,3 +42,8 @@ class StudentViewSet(ModelViewSet):
 
         serializer = self.get_serializer(student)
         return Response(serializer.data)
+
+    def perform_update(self, serializer):
+        instance = serializer.save()
+        cache_key = f"student_profile_{instance.id}"
+        cache.delete(cache_key)

@@ -15,8 +15,16 @@ class StudentViewSet(ModelViewSet):
     filter_fields = ["dob", "registration_date"]
 
     def get_permission(self):
-        if self.action in ["update", "partial_update"]:
+        if self.action in ["list", "retrieve"]:
+            return [IsAuthenticated(), IsStudent() or IsAdmin()]
+        elif self.action in ["update", "partial_update"]:
             return [IsAuthenticated(), IsStudent()]
         elif self.action in ["destroy"]:
             return [IsAuthenticated(), IsAdmin()]
         return [IsAuthenticated()]
+
+    def get_queryset(self):
+        user = self.request.user
+        if user.role == "student":
+            return Student.objects.filter(user=user)
+        return Student.objects.all()

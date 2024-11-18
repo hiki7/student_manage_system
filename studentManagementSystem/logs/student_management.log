@@ -1,0 +1,311 @@
+INFO 2024-11-18 11:49:56,290 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 11:50:05,236 basehttp "GET /api/docs/swagger/ HTTP/1.1" 200 4662
+INFO 2024-11-18 11:50:05,472 basehttp "GET /api/schema/ HTTP/1.1" 200 96030
+INFO 2024-11-18 12:07:21,705 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:07:22,085 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:07:30,683 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:07:31,062 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:07:37,445 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:07:37,786 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:07:43,379 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:07:43,683 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:08:19,102 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:08:19,422 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:08:29,023 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:08:29,361 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:09:13,253 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:09:13,670 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:09:32,741 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:09:33,099 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:11:47,884 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:11:48,311 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:12:31,775 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/views.py changed, reloading.
+INFO 2024-11-18 12:12:32,059 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:15:18,675 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/courses/views.py changed, reloading.
+INFO 2024-11-18 12:15:19,070 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:15:29,753 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/courses/views.py changed, reloading.
+INFO 2024-11-18 12:15:30,119 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:15:52,266 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/courses/views.py changed, reloading.
+INFO 2024-11-18 12:15:52,596 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:16:09,479 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/attendance/views.py changed, reloading.
+INFO 2024-11-18 12:16:09,836 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:16:23,677 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/attendance/views.py changed, reloading.
+INFO 2024-11-18 12:16:24,103 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:16:27,597 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/attendance/views.py changed, reloading.
+INFO 2024-11-18 12:16:28,000 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:18:37,553 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/grades/views.py changed, reloading.
+INFO 2024-11-18 12:18:37,989 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:18:42,462 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/grades/views.py changed, reloading.
+INFO 2024-11-18 12:18:42,772 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:22:21,758 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/students/views.py changed, reloading.
+INFO 2024-11-18 12:22:22,072 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:22:36,909 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/students/views.py changed, reloading.
+INFO 2024-11-18 12:22:37,245 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:38:11,320 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:42:34,450 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/studentManagementSystem/settings.py changed, reloading.
+INFO 2024-11-18 12:42:34,732 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:42:39,124 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/studentManagementSystem/settings.py changed, reloading.
+INFO 2024-11-18 12:42:39,450 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:43:03,147 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/studentManagementSystem/settings.py changed, reloading.
+INFO 2024-11-18 12:43:03,551 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:52:58,093 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 12:56:26,112 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/grades/models.py changed, reloading.
+INFO 2024-11-18 12:56:26,750 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 13:00:45,925 autoreload /home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/_distutils_hack/__init__.py changed, reloading.
+INFO 2024-11-18 13:00:46,390 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 13:05:38,717 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-18 13:13:45,230 log Forbidden: /api/students/
+INFO 2024-11-18 13:13:45,322 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:16:49,787 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/permissions.py changed, reloading.
+INFO 2024-11-18 13:16:50,415 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 13:17:04,392 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/students/views.py changed, reloading.
+INFO 2024-11-18 13:17:04,895 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-18 13:17:10,605 log Forbidden: /api/students/
+INFO 2024-11-18 13:17:10,708 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:17:16,823 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/students/views.py changed, reloading.
+INFO 2024-11-18 13:17:17,455 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 13:17:24,161 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/users/permissions.py changed, reloading.
+INFO 2024-11-18 13:17:24,618 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 13:24:22,259 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/students/views.py changed, reloading.
+INFO 2024-11-18 13:24:22,771 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 13:24:35,477 views Admin admin is accessing all student profiles.
+INFO 2024-11-18 13:24:35,484 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:25:20,461 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/students/views.py changed, reloading.
+INFO 2024-11-18 13:25:21,081 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 13:25:26,736 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/students/views.py changed, reloading.
+INFO 2024-11-18 13:25:27,272 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 13:25:29,131 views Admin admin is accessing all student profiles.
+INFO 2024-11-18 13:25:29,137 views Student student1 is accessing their own profile.
+ERROR 2024-11-18 13:30:23,391 log Internal Server Error: /api/courses/
+Traceback (most recent call last):
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "instructor_id" of relation "courses_course" violates not-null constraint
+DETAIL:  Failing row contains (1, Math 101, Basic Math Course, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/base.py", line 891, in save
+    self.save_base(
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "instructor_id" of relation "courses_course" violates not-null constraint
+DETAIL:  Failing row contains (1, Math 101, Basic Math Course, null).
+
+WARNING 2024-11-18 13:30:23,722 log Forbidden: /api/courses/
+INFO 2024-11-18 13:30:23,731 views Admin admin is accessing all student profiles.
+INFO 2024-11-18 13:30:23,738 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:33:27,809 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/courses/serializers.py changed, reloading.
+INFO 2024-11-18 13:33:28,736 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-18 13:33:57,553 log Forbidden: /api/courses/
+INFO 2024-11-18 13:33:57,562 views Admin admin is accessing all student profiles.
+INFO 2024-11-18 13:33:57,567 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:34:33,644 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/courses/views.py changed, reloading.
+INFO 2024-11-18 13:34:34,163 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-18 13:34:37,007 log Forbidden: /api/courses/
+INFO 2024-11-18 13:34:37,017 views Admin admin is accessing all student profiles.
+INFO 2024-11-18 13:34:37,023 views Student student1 is accessing their own profile.
+WARNING 2024-11-18 13:35:54,645 log Forbidden: /api/courses/
+WARNING 2024-11-18 13:36:40,902 log Forbidden: /api/courses/
+INFO 2024-11-18 13:36:52,051 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/courses/views.py changed, reloading.
+INFO 2024-11-18 13:36:52,597 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-18 13:37:00,818 log Forbidden: /api/courses/
+INFO 2024-11-18 13:37:11,743 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/courses/serializers.py changed, reloading.
+INFO 2024-11-18 13:37:12,272 autoreload Watching for file changes with StatReloader
+ERROR 2024-11-18 13:37:14,724 log Internal Server Error: /api/courses/
+Traceback (most recent call last):
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "instructor_id" of relation "courses_course" violates not-null constraint
+DETAIL:  Failing row contains (1, Math 101, Basic Math Course, null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/base.py", line 891, in save
+    self.save_base(
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/yerzhan-rsaliyev/.cache/pypoetry/virtualenvs/indv2-UH7l_Tub-py3.11/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "instructor_id" of relation "courses_course" violates not-null constraint
+DETAIL:  Failing row contains (1, Math 101, Basic Math Course, null).
+
+WARNING 2024-11-18 13:37:15,064 log Forbidden: /api/courses/
+INFO 2024-11-18 13:37:32,356 autoreload /home/yerzhan-rsaliyev/Desktop/kbtu/django/projects/indv2/studentManagementSystem/courses/serializers.py changed, reloading.
+INFO 2024-11-18 13:37:33,008 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-18 13:37:41,303 log Forbidden: /api/courses/
+WARNING 2024-11-18 13:37:45,758 log Forbidden: /api/courses/
+INFO 2024-11-18 13:37:45,768 views Admin admin is accessing all student profiles.
+INFO 2024-11-18 13:37:45,773 views Student student1 is accessing their own profile.
+WARNING 2024-11-18 13:40:51,319 log Forbidden: /api/courses/
+INFO 2024-11-18 13:40:51,329 views Cache miss for student profile: 2
+INFO 2024-11-18 13:40:51,329 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:40:51,424 views Admin admin is accessing all student profiles.
+INFO 2024-11-18 13:40:51,429 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:41:32,506 views Cache miss for student profile: 1
+INFO 2024-11-18 13:41:32,506 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:43:57,336 views Cache miss for student profile: 1
+INFO 2024-11-18 13:43:57,336 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:43:57,342 views Cache hit for student profile: 1
+INFO 2024-11-18 13:44:40,780 views Cache miss for student profile: 1
+INFO 2024-11-18 13:44:40,780 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:44:40,785 views Cache hit for student profile: 1
+WARNING 2024-11-18 13:44:44,986 log Forbidden: /api/courses/
+INFO 2024-11-18 13:44:44,997 views Cache miss for student profile: 2
+INFO 2024-11-18 13:44:44,997 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:44:45,002 views Cache hit for student profile: 2
+INFO 2024-11-18 13:44:45,007 views Admin admin is accessing all student profiles.
+INFO 2024-11-18 13:44:45,012 views Student student1 is accessing their own profile.
+WARNING 2024-11-18 13:47:09,006 log Forbidden: /api/courses/
+INFO 2024-11-18 13:47:09,015 views Cache miss for student profile: 2
+INFO 2024-11-18 13:47:09,015 views Student student1 is accessing their own profile.
+INFO 2024-11-18 13:47:09,019 views Cache hit for student profile: 2
+INFO 2024-11-18 13:47:09,024 views Admin admin is accessing all student profiles.
+INFO 2024-11-18 13:47:09,028 views Student student1 is accessing their own profile.
+INFO 2024-11-18 17:28:28,217 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-18 17:28:31,608 log Not Found: /
+WARNING 2024-11-18 17:28:31,608 basehttp "GET / HTTP/1.1" 404 3772
+WARNING 2024-11-18 17:28:31,706 log Not Found: /favicon.ico
+WARNING 2024-11-18 17:28:31,706 basehttp "GET /favicon.ico HTTP/1.1" 404 3823
+WARNING 2024-11-18 17:28:41,628 log Not Found: /api/docs/schema
+WARNING 2024-11-18 17:28:41,629 basehttp "GET /api/docs/schema HTTP/1.1" 404 3835
+INFO 2024-11-18 17:28:47,228 basehttp "GET /api/docs/swagger HTTP/1.1" 301 0
+INFO 2024-11-18 17:28:47,256 basehttp "GET /api/docs/swagger/ HTTP/1.1" 200 4662
+INFO 2024-11-18 17:28:55,264 basehttp "GET /api/schema/ HTTP/1.1" 200 96174
+INFO 2024-11-18 17:32:03,580 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 17:32:39,536 basehttp "GET /api/docs/swagger/ HTTP/1.1" 200 4662
+INFO 2024-11-18 17:32:39,869 basehttp "GET /api/schema/ HTTP/1.1" 200 96174

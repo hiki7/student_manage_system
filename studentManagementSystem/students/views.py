@@ -18,7 +18,7 @@ class StudentViewSet(ModelViewSet):
         if self.action in ["list", "retrieve"]:
             return [IsAuthenticated(), IsStudent() or IsAdmin()]
         elif self.action in ["update", "partial_update"]:
-            return [IsAuthenticated(), IsStudent()]
+            return [IsAuthenticated(), IsStudent() or IsAdmin()]
         elif self.action in ["destroy"]:
             return [IsAuthenticated(), IsAdmin()]
         return [IsAuthenticated()]

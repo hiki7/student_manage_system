@@ -7,6 +7,10 @@ from rest_framework.permissions import IsAuthenticated
 from django_filters.rest_framework import DjangoFilterBackend
 from django.core.cache import cache
 from rest_framework.response import Response
+import logging
+
+
+logger = logging.getLogger("custom")
 
 
 class StudentViewSet(ModelViewSet):
@@ -16,7 +20,7 @@ class StudentViewSet(ModelViewSet):
     filter_backends = [DjangoFilterBackend]
     filter_fields = ["dob", "registration_date"]
 
-    def get_permission(self):
+    def get_permissions(self):
         if self.action in ["list", "retrieve"]:
             return [IsAuthenticated(), IsStudent() or IsAdmin()]
         elif self.action in ["update", "partial_update"]:
@@ -28,6 +32,7 @@ class StudentViewSet(ModelViewSet):
     def get_queryset(self):
         user = self.request.user
         if user.role == "student":
+            logger.info(f"Student {user.username} is accessing their own profile.")
             return Student.objects.filter(user=user)
         return Student.objects.all()
 
@@ -36,7 +41,10 @@ class StudentViewSet(ModelViewSet):
         cache_key = f"student_profile_{student_id}"
         student = cache.get(cache_key)
 
-        if not student:
+        if student:
+            logger.info(f"Cache hit for student profile: {student_id}")
+        else:
+            logger.info(f"Cache miss for student profile: {student_id}")
             student = self.get_object()
             cache.set(cache_key, student, timeout=3600)
 
@@ -47,3 +55,4 @@ class StudentViewSet(ModelViewSet):
         instance = serializer.save()
         cache_key = f"student_profile_{instance.id}"
         cache.delete(cache_key)
+        logger.info(f"Cache invalidated for student profile: {instance.id}")

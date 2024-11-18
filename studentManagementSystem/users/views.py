@@ -31,20 +31,28 @@ class UserViewSet(ModelViewSet):
 
     def retrieve(self, request, *args, **kwargs):
         user = self.get_object()
-        logger.info(f"User {request.user.username} is retrieving profile of {user.username}.")
+        logger.info(
+            f"User {request.user.username} is retrieving profile of {user.username}."
+        )
         return super().retrieve(request, *args, **kwargs)
 
     def update(self, request, *args, **kwargs):
         user = self.get_object()
-        logger.info(f"User {request.user.username} is updating profile of {user.username}.")
+        logger.info(
+            f"User {request.user.username} is updating profile of {user.username}."
+        )
         return super().update(request, *args, **kwargs)
 
     def partial_update(self, request, *args, **kwargs):
         user = self.get_object()
-        logger.info(f"User {request.user.username} is partially updating profile of {user.username}.")
+        logger.info(
+            f"User {request.user.username} is partially updating profile of {user.username}."
+        )
         return super().partial_update(request, *args, **kwargs)
 
     def destroy(self, request, *args, **kwargs):
         user = self.get_object()
-        logger.warning(f"Admin {request.user.username} is deleting profile of {user.username}.")
+        logger.warning(
+            f"Admin {request.user.username} is deleting profile of {user.username}."
+        )
         return super().destroy(request, *args, **kwargs)

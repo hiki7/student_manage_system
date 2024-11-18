@@ -9,6 +9,7 @@ A comprehensive **Student Management System** built with Django and PostgreSQL, 
 - API documentation with Swagger.
 - Asynchronous tasks with Celery and Redis.
 - PostgreSQL as the database backend.
+- Nginx as the web server for serving the application.
 
 ## **Live Demo**
 

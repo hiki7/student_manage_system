@@ -39,6 +39,13 @@ class CourseViewSet(ModelViewSet):
         serializer = CourseSerializer(courses, many=True)
         return Response(serializer.data)
 
+    def perform_update(self, serializer):
+        instance = serializer.save()
+        user = self.request.user
+
+        cache_key = f"courses_list_{user.id}"
+        cache.delete(cache_key)
+
 
 class EnrollmentViewSet(ModelViewSet):
     queryset = Enrollment.objects.all()

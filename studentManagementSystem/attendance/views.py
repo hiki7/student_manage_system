@@ -4,6 +4,9 @@ from users.permissions import IsTeacher, IsAdmin, IsStudent
 from .models import Attendance
 from .serializers import AttendanceSerializer
 from rest_framework.permissions import IsAuthenticated
+import logging
+
+logger = logging.getLogger("custom")
 
 
 class AttendanceViewSet(ModelViewSet):
@@ -24,3 +27,10 @@ class AttendanceViewSet(ModelViewSet):
         if user.role == "student":
             return Attendance.objects.filter(user=user)
         return super().get_queryset()
+
+    def perform_create(self, serializer):
+        attendance = serializer.save()
+        logger.info(
+            f"Attendance marked: Student {attendance.student.user.username} - "
+            f"Course {attendance.course.name} - Status {attendance.status}"
+        )

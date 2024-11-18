@@ -5,6 +5,8 @@ from .models import Student
 from .serializers import StudentSerializer
 from rest_framework.permissions import IsAuthenticated
 from django_filters.rest_framework import DjangoFilterBackend
+from django.core.cache import cache
+from rest_framework.response import Response
 
 
 class StudentViewSet(ModelViewSet):
@@ -28,3 +30,20 @@ class StudentViewSet(ModelViewSet):
         if user.role == "student":
             return Student.objects.filter(user=user)
         return Student.objects.all()
+
+    def retrieve(self, request, *args, **kwargs):
+        student_id = kwargs["pk"]
+        cache_key = f"student_profile_{student_id}"
+        student = cache.get(cache_key)
+
+        if not student:
+            student = self.get_object()
+            cache.set(cache_key, student, timeout=3600)
+
+        serializer = self.get_serializer(student)
+        return Response(serializer.data)
+
+    def perform_update(self, serializer):
+        instance = serializer.save()
+        cache_key = f"student_profile_{instance.id}"
+        cache.delete(cache_key)

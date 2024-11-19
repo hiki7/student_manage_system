@@ -8,6 +8,7 @@ from django.core.cache import cache
 from rest_framework.decorators import action
 from rest_framework.response import Response
 import logging
+from common.pagination import CustomPagination
 
 
 logger = logging.getLogger("custom")
@@ -16,6 +17,7 @@ logger = logging.getLogger("custom")
 class CourseViewSet(ModelViewSet):
     queryset = Course.objects.all()
     serializer_class = CourseSerializer
+    pagination_class = CustomPagination
     filter_backends = (DjangoFilterBackend,)
     filterset_fields = ("name",)
 

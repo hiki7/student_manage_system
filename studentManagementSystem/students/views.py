@@ -8,6 +8,7 @@ import logging
 from users.permissions import IsStudent, IsAdmin
 from .models import Student
 from .serializers import StudentSerializer
+from common.pagination import CustomPagination
 
 logger = logging.getLogger("custom")
 
@@ -15,6 +16,7 @@ logger = logging.getLogger("custom")
 class StudentViewSet(ModelViewSet):
     queryset = Student.objects.all()
     serializer_class = StudentSerializer
+    pagination_class = CustomPagination
     permission_classes = [IsAuthenticated]
     filter_backends = [DjangoFilterBackend]
     filter_fields = ["dob", "registration_date"]
